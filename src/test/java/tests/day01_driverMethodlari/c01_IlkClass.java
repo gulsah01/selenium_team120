@@ -17,7 +17,7 @@ public class c01_IlkClass {
 
         her classda o class da kulannacagimiz browseri tanitmaliyiz.
          */
-        System.setProperty("webdriver.chorome.driver","src/resources/chromedriver-mac-arm64.zip");
+        System.setProperty("webdriver.chorome.driver","src/resources/chromedriver");
 
         // WebDriver  objesi olusturalim
 

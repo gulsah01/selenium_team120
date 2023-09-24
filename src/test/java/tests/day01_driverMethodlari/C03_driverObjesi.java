@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class C03_driverObjesi {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chorome.driver","src/resources/chromedriver-mac-arm64.zip");
+        System.setProperty("webdriver.chorome.driver","src/resources/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");

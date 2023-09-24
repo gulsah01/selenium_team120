@@ -7,7 +7,7 @@ import java.time.Duration;
 
 public class C04_driverManageMethodlari {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chorome.driver","src/resources/chromedriver-mac-arm64.zip");
+        System.setProperty("webdriver.chrome.driver","src/resources/chromedriver");
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

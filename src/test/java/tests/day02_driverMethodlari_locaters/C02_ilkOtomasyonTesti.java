@@ -7,7 +7,7 @@ public class C02_ilkOtomasyonTesti {
     //2. Yeni bir class olusturalim : C03_GetMethods
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chorome.driver", "src/resources/chromedriver-mac-arm64.zip");
+        System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver");
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
 //3. Amazon sayfasina gidelim. https://www.amazon.com/
